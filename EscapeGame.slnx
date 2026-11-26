@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="EscapeGame/EscapeGame.vcxproj" Id="1d083957-b955-41a5-ac25-1f75527d22c9" />
+</Solution>
