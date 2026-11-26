@@ -14,7 +14,7 @@ void Room1::Action(int x)
 	{
 		switch (x) {
 		case 1:
-
+			ShowText(room1Text[5]);
 			return;
 		case 2:
 
@@ -28,10 +28,15 @@ void Room1::Action(int x)
 	{
 		switch (x) {
 		case 1:
-
+			ShowText(room1Text[1]);
+			ShowAction(room1AText[0]);
+			Action(SetAction());
 			return;
 		case 2:
-
+			ShowText(room1Text[2]);
+			ShowAction(room1AText[1]);
+			havekey = true;
+			Action(SetAction());
 			return;
 		}
 	}
